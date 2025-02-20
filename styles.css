@@ -24,6 +24,7 @@ body {
   color: hsl(0, 0%, 100%);
   padding: 10%;
   text-align: center;
+  order: 1
 }
 
 .left-section h1 {
@@ -45,7 +46,8 @@ body {
 .stats {
   display: flex;
   flex-direction: column;
-  gap: 5%;
+  align-items: center;
+  gap: 10%;
 }
 
 .stats h3 {
