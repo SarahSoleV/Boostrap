@@ -95,21 +95,21 @@ body {
   opacity: 0.75;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
   .card {
     flex-direction: column;
   }
 
   .left-section {
     width: 100%;
-    padding: 10%;
+    padding: 5%;
     text-align: center;
     order: 1;
   }
 
   .stats {
     flex-direction: column;
-    gap: 10%;
+    gap: 5%;
     align-items: center;
   }
 
