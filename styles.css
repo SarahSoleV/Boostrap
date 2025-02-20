@@ -74,7 +74,7 @@ body {
   height: 100%;
   object-fit: cover;
   mix-blend-mode: multiply;
-  opacity: 0.3;
+  opacity: 1; 
 }
 
 .mobile-image {
@@ -88,7 +88,8 @@ body {
   width: 100%;
   height: 100%;
   background-color: hsl(277, 64%, 61%);
-  opacity: 0.3;
+  mix-blend-mode: multiply; 
+  opacity: 0.75;
 }
 
 @media (max-width: 767px) {
@@ -106,6 +107,7 @@ body {
   .stats {
     flex-direction: column;
     gap: 10%;
+    align-items: center;
   }
 
   .mobile-image {
